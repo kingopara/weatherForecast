@@ -1,0 +1,135 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+header {
+    background-color:#5c2018;
+    height: 90px;
+  }
+  
+h2{
+    text-align: center;
+    color: white;
+    padding: 25px;
+  }
+body{
+    background-color: #f3e0dc
+  }
+#idname h2 {
+    text-align: center;
+    font-weight: 900;
+}
+  
+.jumby h2 {
+    text-align: center;
+    color: white;
+    padding: 5px;
+  }
+  
+.jumby {
+    background-color: #f3e0dc
+  }
+  
+#sidebar {
+    padding: 30px;
+  }
+#console {
+    margin:10px;
+    padding:0 20px 0 20px;
+  }
+  
+#cardrow {
+    margin: 10px;
+    margin-top: -30px;
+  }
+  
+  
+.daycard {
+    max-height: 285px;
+    background-color: #d4a59a;
+    margin: 5px;
+    padding: 1%;
+    min-width: 160px;
+  }
+  
+.daycard card-header{
+    text-align: center;
+  }
+  
+#cityweather {
+   height: fit-content;
+   padding: 1%;
+   margin-bottom: none;
+  }
+  
+#cityweather h1{
+  padding: 1%;
+  }
+  
+#cityweather h2{
+    text-align: center;
+  }
+  
+.allbuttons{
+    background-color: #5c2018;
+    color: white;
+  }
+  
+.wPic img{
+    height: 40px;
+  }
+  
+.wPic{
+    margin-top: none;
+  }
+  
+#uv {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-weight: 700;
+  }
+  
+#uvbox{
+    max-width: fit-content;
+    max-height: fit-content;
+    padding: 0;
+    border-radius: 5px;
+    margin: none;
+  }
+  
+.green{
+    background-color: green;
+  }
+  
+.yellow{
+    background-color: yellow;
+  }
+  
+.orange{
+    background-color: orange;
+  }
+  
+.red{
+    background-color: red;
+  }
+  
+.violet{
+    background-color: violet;
+  }
+  
+.bold {
+    font-weight: 800;
+  }
+  
+@media screen and (max-width: 650px){
+    #container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+.hide {
+    display:none;
+  }
